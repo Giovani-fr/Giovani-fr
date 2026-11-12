@@ -6,6 +6,11 @@ Limeira, SP · [LinkedIn](https://www.linkedin.com/in/giovani-felippe-rodrigues-
 ## Quem sou
 Há mais de duas décadas trabalho com tecnologia, a maior parte delas na empresa da minha família (indústria de ferramentaria), onde sou responsável pela área de TI. Implantei um ERP e construí, em Python e PostgreSQL, automações e integrações que rodam em produção. Hoje também desenvolvo produtos próprios (um SaaS e uma plataforma de pagamentos) e estou concentrando minha carreira em **backend Python e IA aplicada**.
 
+## Projeto público
+| Projeto | O que é | Tecnologias |
+|---|---|---|
+| [**transcritor-local**](https://github.com/Giovani-fr/transcritor-local) | Transcrição de áudio, vídeo e reuniões **100% local**, sem API, sem assinatura e sem custo. Interface web em português com três funções (arquivo, YouTube e gravação ao vivo), progresso em tempo real, testes automáticos e benchmark documentado. O README informa com honestidade o que foi testado em hardware real e o que ainda é limitação. Licença MIT, README em português e inglês. | Python, FastAPI, faster-whisper (Whisper), SSE, HTML/CSS/JS, pytest |
+
 ## Projetos em produção
 Os códigos são privados (dados e clientes reais). Cada projeto terá um estudo de caso em texto.
 
@@ -24,9 +29,9 @@ Os códigos são privados (dados e clientes reais). Cada projeto terá um estudo
 | `rag-estudo` | Perguntas e respostas sobre documentos com embeddings e busca vetorial | Em construção |
 
 ## No que trabalho
-- **Uso no dia a dia:** Python, Flask, PostgreSQL, MySQL, APIs REST, webhooks, Docker, Git, Redis, Google Cloud Run
+- **Uso no dia a dia:** Python, Flask, FastAPI, PostgreSQL, MySQL, APIs REST, webhooks, pytest, Docker, Git, Redis, Google Cloud Run
 - **Já pratiquei (exercícios):** RabbitMQ, Kubernetes, Terraform, microsserviços
-- **Estudando agora:** FastAPI, testes (pytest, TDD), RAG e LLMs, orquestração com Prefect
+- **Estudando agora:** RAG e LLMs, orquestração com Prefect, TDD
 
 ## Como trabalho com IA
 Uso Claude Code e outros assistentes todos os dias. Os projetos acima foram construídos com assistência de IA, sob minha direção e revisão, e valido o resultado com testes, scripts de auditoria e pagamentos reais de teste. Também treino programar sem ela. Nos projetos novos há uma seção "Como usei IA", com o que pedi, onde ela errou e como corrigi.
